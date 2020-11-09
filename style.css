@@ -1,0 +1,128 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 0 auto;
+}
+
+.header-container, .bamboo-container {
+  margin: 20px;
+}
+
+.header-background {
+  display: flex;
+  width: 100%;
+  background-image: url("Menstrual-Landing-Assets/menstraul-hero_desktop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 80%;
+  margin: 5%;
+}
+
+.header-button {
+  background-color: rgb(248, 152, 61);
+  font-size: large;
+  color: white;
+  padding: 10px;
+  width: 40%;
+}
+
+.bamboo-background {
+  display: flex;
+  width: 100%;
+  background-image: url("Menstrual-Landing-Assets/bamboo_desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin: auto;
+}
+
+.bamboo-text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  width: 30%;
+  padding: 8em;
+}
+
+.pad-container {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.pad-background {
+  display: flex;
+  flex-direction: column;
+  background-image: url("Menstrual-Landing-Assets/pad_detail_desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 50vw;
+  margin-right: 10px;
+}
+
+.pad-2-background {
+  display: flex;
+  flex-direction: column;
+  background-image: url("Menstrual-Landing-Assets/pad_in_hand_desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 50vw;
+  margin-left: 10px;
+}
+
+.pad-text, .pad-2-text {
+  width: 50%;
+  margin-left: 2em;
+  padding: 7em 5em 7em 0em;
+}
+
+/* List */
+
+.pad-2-list {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  padding: 5px 5px 5px 0;
+}
+
+.products-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.products-container {
+  display: flex;
+  flex-direction: column;
+  object-fit: contain;
+  width: 200px;
+  height: 200px;
+}
+
+.products-images {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.for-sale-stuff {
+  width: 100%;
+  align-self: center;
+}
